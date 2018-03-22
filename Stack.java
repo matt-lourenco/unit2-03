@@ -16,7 +16,6 @@ public class Stack<Type> {
 	public void push(Type object) {
 		//append an object to the end of the stack
 		list.add(object);
-		this.printContents();
 	}
 	
 	public Type pop() {
