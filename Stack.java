@@ -35,7 +35,7 @@ public class Stack<Type> {
 	}
 	
 	public void printContents() {
-		//This method returns a string version of the array
+		//This method prints a string version of the array
 		System.out.println(list.toString());
 	}
 }
